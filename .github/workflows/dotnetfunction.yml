@@ -1,6 +1,7 @@
 name: Deploy DotNet project to function app with a Linux environment
 
 on:
+  workflow_dispatch:
   push:
     branches: [ main ]
   pull_request:
